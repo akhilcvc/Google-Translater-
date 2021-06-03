@@ -32,7 +32,7 @@ app = Client(
     
 @app.on_message(filters.command(['start']))
 def start(client, message):
-            message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
+            message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot 📝 \n I can translate any language to you selected language 😌 \n\n My developer 🙋 @FILMWORLDOFFICIA",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ],
